@@ -1,0 +1,104 @@
+html, body{
+	background-color: #E6E6E6;
+	/*background-image: url("/S2W/Img/background1.jpeg");*/
+	height: 100%;
+	width: 100%;
+}
+
+/*.wrapper {
+min-height: 100%;
+height: auto !important;
+height: 100%;
+margin: 0 auto -4em;
+margin-bottom: 150px;
+}*/
+
+.footer{
+height: 4em;
+background-color: #66CCFF;
+text-align: center;
+margin-right: -8px;
+margin-left: -8px;
+margin-top: 580px;
+padding: 70px;
+box-shadow: 0 1px 2px rgba(0,0,0,.2);
+}
+
+.footer img{
+	margin: 10px;
+}
+/* navigation */
+
+nav{
+	background-color: #FAFAFA;
+	padding: 30px;
+	padding-bottom: 0.1px;
+	margin-left: -8px;
+	margin-right: -8px;
+	margin-top: -16px;
+	box-shadow: 0 1px 2px rgba(0,0,0,.2);
+}
+
+.nav {
+	text-decoration: none;
+	color: gray;
+	padding-top: 600px;
+	padding-left: 18px;
+	padding-bottom: 17.5px;
+	padding-right: 18px;
+}
+
+.nav:hover{
+	color: #E2E2E2;
+}
+
+.nav:active{
+	text-shadow: 0 2px 5px;
+}
+/*Pour connexion ou inscription*/
+.nav-right{
+	float: right;
+	margin-right: 32px;
+	color: gray;
+	text-decoration: none;
+}
+
+.nav-right:hover{
+	color: #2E2E2E;
+}
+
+.nav-right:active{
+	text-shadow: 0 2px 5px;
+}
+ li{
+	display: inline;
+ }
+ 
+ ul{
+	display: block;
+ }
+ 
+ .active {
+	background-color: #66CCFF;
+	padding-bottom: 16px;
+ }
+/*endnav*/
+
+.module{
+	height: 100%;
+	width: 100%;
+	margin: 10px;
+	text-align: center;
+	position: relative;
+	overflow: auto;
+}
+
+h2{
+	text-align: center;
+	color: #003300;
+}
+
+.button{
+	margin-top: 50px;
+	text-align: center;
+}	
